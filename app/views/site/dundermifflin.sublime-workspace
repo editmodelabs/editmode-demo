@@ -1,0 +1,465 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"vise",
+				"videos"
+			],
+			[
+				"margin",
+				"marginBottom"
+			],
+			[
+				"get",
+				"getCodeString"
+			],
+			[
+				"cont",
+				"contained"
+			],
+			[
+				"Pa",
+				"PaperProvider"
+			],
+			[
+				"to",
+				"token"
+			],
+			[
+				"loca",
+				"location_capture_complete"
+			],
+			[
+				"lat",
+				"latitude"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/tonyennis/Dropbox/Projects/Chunks/editmode_demo/Gemfile",
+			"settings":
+			{
+				"buffer_size": 254,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"INS",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Users/tonyennis/Dropbox/Projects/Chunks/chunks_app/Gemfile",
+		"/Users/tonyennis/Dropbox/Projects/Chunks/editmode_gem/lib/editmode-rails/action_view_extensions/editmode_helper.rb",
+		"/Users/tonyennis/Dropbox/Projects/Chunks/editmode_gem/lib/editmode-rails/script_tag.rb",
+		"/Users/tonyennis/Dropbox/Projects/Chunks/editmode_gem/config/routes.rb",
+		"/Users/tonyennis/Dropbox/Projects/Chunks/editmode_gem/app/controllers/editmode_controller.rb",
+		"/Users/tonyennis/Dropbox/Projects/Chunks/editmode_gem/editmode.gemspec",
+		"/Users/tonyennis/Dropbox/Projects/Chunks/editmode_gem/README.md",
+		"/Users/tonyennis/Dropbox/Projects/Chunks/chunks_gem/lib/chunks-rails/auto_include_filter.rb",
+		"/Users/tonyennis/Dropbox/Projects/Chunks/editmode_demo/app/views/layouts/application.html.erb",
+		"/Users/tonyennis/Dropbox/Projects/Chunks/editmode_demo/app/assets/javascripts/application.js",
+		"/Users/tonyennis/Dropbox/Projects/Chunks/editmode_demo/Gemfile",
+		"/Users/tonyennis/Dropbox/Projects/Chunks/chunks_gem/app/controllers/chunksapp_controller.rb",
+		"/Users/tonyennis/Dropbox/Projects/Chunks/editmode_gem/lib/editmode-rails/auto_include_filter.rb",
+		"/Users/tonyennis/Dropbox/Projects/Chunks/chunks_gem/chunks.gemspec",
+		"/Users/tonyennis/Dropbox/Projects/Chunks/chunks_app/config/database.yml",
+		"/Users/tonyennis/Dropbox/Projects/Chunks/editmode_demo/config/routes.rb",
+		"/Users/tonyennis/Dropbox/Projects/Chunks/chunks_app/app/controllers/chunks_controller.rb",
+		"/Users/tonyennis/Dropbox/Projects/Chunks/editmode_demo/app/controllers/site_controller.rb",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/Experimental/iOS/appsv2/webpack.config.js",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/Experimental/iOS/rebel-fitness-apps/app.json",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/Experimental/iOS/appsv2/app.json",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/Experimental/iOS/appsv2/navigation/BottomTabNavigator.js",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/Experimental/iOS/appsv2/components/TabBarIcon.js",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/Experimental/iOS/appsv2/constants/Colors.js",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/Experimental/iOS/appsv2/constants/Layout.js",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/Experimental/iOS/rebel-fitness-apps/package.json",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/Experimental/iOS/rebel-fitness-apps/App.js",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/Experimental/iOS/appsv2/App.js",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/Experimental/iOS/rebel-fitness-apps/screens/HomeScreen.js",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/Experimental/iOS/appsv2/screens/AccountScreen.js",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/Experimental/iOS/appsv2/screens/VideosScreen.js",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/Experimental/iOS/rebel-fitness-apps/navigation/BottomTabNavigator.js",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/Experimental/iOS/appsv2/package.json",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/Experimental/iOS/rebel-fitness-apps/screens/LoginForm.js",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/Experimental/iOS/rebel-fitness-apps/yarn.lock",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/Experimental/iOS/rebel-fitness-apps/components/TabBarIcon.js",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/rebel-pwa/README.md",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/rebel-pwa/src/app/pages/videos/Videos.vue",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/rebel-pwa/src/app/router.ts",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/rebel-pwa/src/app/home/Home/Home.spec.ts",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/rebel-pwa/src/app/example/counter/Counter/Counter.vue",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/rebel-pwa/src/app/store.ts",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/rebel-pwa/src/app/shared/components/VueNavBar/VueNavBar.vue",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/rebel-pwa/src/app/shared/components/VueFooter/VueFooter.vue",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/rebel-pwa/src/app/shared/components/VueNotificationStack/VueNotificationStack.vue",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/rebel-pwa/src/app/shared/components/VueNotificationStack/utils.ts",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/rebel-pwa/src/app/shared/modules/auth/LoginForm/LoginForm.vue",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/rebel-pwa/src/client/index.ts",
+		"/Users/tonyennis/Dropbox/Projects/Rebel Fitness/rebel-pwa/src/app/app/test.js"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/tonyennis/Dropbox/Projects/Chunks/editmode_demo/Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 254,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								68,
+								68
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "dundermifflin.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"",
+				"editmode_demo/Gemfile"
+			],
+			[
+				"gemfil",
+				"editmode_demo/Gemfile"
+			],
+			[
+				"appl",
+				"editmode_demo/app/views/layouts/application.html.erb"
+			],
+			[
+				"gemfi",
+				"chunks_app/Gemfile"
+			],
+			[
+				"appl html",
+				"editmode_demo/app/views/layouts/application.html.erb"
+			],
+			[
+				"controll",
+				"chunks_app/app/controllers/chunks_controller.rb"
+			],
+			[
+				"rout",
+				"editmode_demo/config/routes.rb"
+			],
+			[
+				"datab",
+				"chunks_app/config/database.yml"
+			],
+			[
+				"app",
+				"appsv2/App.js"
+			],
+			[
+				"app.js",
+				"rebel-fitness-apps/app.json"
+			],
+			[
+				"webc",
+				"appsv2/webpack.config.js"
+			],
+			[
+				"app.json",
+				"rebel-fitness-apps/app.json"
+			],
+			[
+				"home",
+				"rebel-fitness-apps/screens/HomeScreen.js"
+			],
+			[
+				"app.",
+				"rebel-fitness-apps/App.js"
+			],
+			[
+				"loginf",
+				"rebel-fitness-apps/screens/LoginForm.js"
+			],
+			[
+				"bottom",
+				"rebel-fitness-apps/navigation/BottomTabNavigator.js"
+			],
+			[
+				"hm",
+				"rebel-fitness-apps/screens/HomeScreen.js"
+			],
+			[
+				"yarn.",
+				"yarn.lock"
+			],
+			[
+				"login",
+				"screens/LoginForm.js"
+			],
+			[
+				"tab bar ",
+				"components/TabBarIcon.js"
+			],
+			[
+				"navigator",
+				"navigation/BottomTabNavigator.js"
+			],
+			[
+				"app vue",
+				"src/app/app/App/App.vue"
+			],
+			[
+				"video",
+				"src/app/pages/videos/Videos.vue"
+			],
+			[
+				"app/stor",
+				"src/app/store.ts"
+			],
+			[
+				"vide",
+				"src/app/pages/videos/Videos.vue"
+			],
+			[
+				"vue notiific utils",
+				"src/app/shared/components/VueNotificationStack/utils.ts"
+			],
+			[
+				"vue noiti",
+				"src/app/shared/components/VueNotificationStack/VueNotificationStack.vue"
+			],
+			[
+				"vue foo",
+				"src/app/shared/components/VueFooter/VueFooter.vue"
+			],
+			[
+				"vue nav ",
+				"src/app/shared/components/VueNavBar/VueNavBar.vue"
+			],
+			[
+				"store",
+				"src/app/store.ts"
+			],
+			[
+				"counter.vue",
+				"src/app/example/counter/Counter/Counter.vue"
+			],
+			[
+				"loginform",
+				"src/app/shared/modules/auth/LoginForm/LoginForm.vue"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"ream",
+				"README.md"
+			],
+			[
+				"gemf",
+				"Gemfile"
+			],
+			[
+				"about",
+				"app/views/site/about.haml"
+			],
+			[
+				"gmefil",
+				"chunks_app/Gemfile.lock"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 269.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
