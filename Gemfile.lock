@@ -129,5 +129,8 @@ DEPENDENCIES
   rails (= 4.2.6)
   turbolinks
 
+RUBY VERSION
+   ruby 2.3.0p0
+
 BUNDLED WITH
    1.17.3
