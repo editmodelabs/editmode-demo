@@ -36,10 +36,11 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     arel (6.0.4)
+    bigdecimal (1.4.2)
     builder (3.2.4)
     concurrent-ruby (1.1.6)
     crass (1.0.6)
-    editmode (0.0.9.37)
+    editmode (0.0.9.39)
       bundler
       httparty
       rake
@@ -71,7 +72,7 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.14.0)
     multi_xml (0.6.0)
-    nokogiri (1.10.8)
+    nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
     rack (1.6.13)
     rack-test (0.6.3)
@@ -126,6 +127,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bigdecimal (= 1.4.2)
   editmode
   figaro
   jquery-rails
