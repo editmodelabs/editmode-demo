@@ -40,7 +40,7 @@ GEM
     builder (3.2.4)
     concurrent-ruby (1.1.6)
     crass (1.0.6)
-    editmode (0.0.9.39)
+    editmode (0.0.9.61)
       bundler
       httparty
       rake

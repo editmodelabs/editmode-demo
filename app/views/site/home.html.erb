@@ -1,75 +1,75 @@
-<div class="container mx-auto px-4"> 
+<%- if Rails.env.development? %>
+  <div class="container mx-auto px-4"> 
                 
-      <nav>
-        <div class="text-right py-2 px-4"><a class="lg:inline-block mr-6 lg:mt-0 text-sm text-blue-900 hover:text-blue-700" href="#"><%= chunk('Sign in','42af45e4837ef5cb262e') %></a><a class="lg:inline-block lg:mt-0 text-sm text-blue-900 hover:text-blue-700" href="#"><%= chunk('Sign up','d8da65d1af93f833e43b') %></a></div>
+       <nav>
+        <div class="text-right py-2 px-4"><a class="lg:inline-block mr-6 lg:mt-0 text-sm text-blue-900 hover:text-blue-700" href="#"><%= chunk('Sign in','cnk_bf8fd7179fcfd6f96932') %></a><a class="lg:inline-block lg:mt-0 text-sm text-blue-900 hover:text-blue-700" href="#"><%= chunk('Sign up','cnk_718e241d78089e69fa5b') %></a></div>
         <div class="flex flex-wrap items-center justify-between p-4 border-t">
-          <div class="flex flex-shrink-0 mr-6"><a class="text-xl text-indigo-500 font-semibold" href="#"><%= chunk('Dunder Mif..','738e135932c1df178247') %></a></div>
-          <div class="block lg:hidden"><button class="navbar-burger flex items-center py-2 px-3 text-indigo-500 rounded border border-indigo-500"><svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title><%= chunk('Menu','c8480dea1ccd910c2bb2') %></title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg></button></div>
+          <div class="flex flex-shrink-0 mr-6"><a class="text-xl text-indigo-500 font-semibold" href="#"><%= chunk('Dunder Mif..','cnk_78eb90c30fd345c9b355') %></a></div>
+          <div class="block lg:hidden"><button class="navbar-burger flex items-center py-2 px-3 text-indigo-500 rounded border border-indigo-500"><svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg></button></div>
           <div class="navbar-menu hidden lg:flex lg:flex-grow lg:items-center w-full lg:w-auto">
-            <div class="lg:ml-auto"><a class="block lg:inline-block mt-4 lg:mt-0 mr-12 text-blue-900 hover:text-blue-700" href="#"><span><%= chunk('Products','f6c5f38c77e1514e9cc5') %></span><span class="block text-sm text-gray-500"><%= chunk('Premium co..','3e30f74bd9aef07d74ce') %></span></a><a class="block lg:inline-block mt-4 lg:mt-0 mr-12 text-blue-900 hover:text-blue-700" href="#"> <span><%= chunk('Team','37eafa79b73ef4d2d26e') %></span><span class="block text-sm text-gray-500">Our family</span></a><a class="block lg:inline-block mt-4 lg:mt-0 mr-12 text-blue-900 hover:text-blue-700" href="#"> <span><%= chunk('Customers','87e3c5c0d5987b2b6fe5') %></span><span class="block text-sm text-gray-500"><%= chunk('Dunder Fri..','9d0183456540cab7a1d0') %></span></a></div>
-            <div><a class="inline-block py-3 px-6 mt-4 lg:mt-0 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow" href="#"><%= chunk('Try Demo','8dbf3e18dd14d1fedb41') %></a></div>
+            <div class="lg:ml-auto"><a class="block lg:inline-block mt-4 lg:mt-0 mr-12 text-blue-900 hover:text-blue-700" href="#"><span><%= chunk('Products','cnk_1c0ea31540b71050468b') %></span><span class="block text-sm text-gray-500"><%= chunk('Premium co..','cnk_b404da95ad24bd64e529') %></span></a><a class="block lg:inline-block mt-4 lg:mt-0 mr-12 text-blue-900 hover:text-blue-700" href="#"> <span><%= chunk('Team','cnk_f771689bf2e85e155f95') %></span><span class="block text-sm text-gray-500"><%= chunk('Our family','cnk_7395ae4e5e25abd6399c') %></span></a><a class="block lg:inline-block mt-4 lg:mt-0 mr-12 text-blue-900 hover:text-blue-700" href="#"> <span><%= chunk('Customers','cnk_c284522eae8678d4bdc5') %></span><span class="block text-sm text-gray-500"><%= chunk('Dunder Fri..','cnk_831d5061046594117931') %></span></a></div>
+            <div><a class="inline-block py-3 px-6 mt-4 lg:mt-0 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow" href="#"><%= chunk('Try Demo','cnk_51e705d489bf6b70e387') %></a></div>
           </div>
         </div>
       </nav>
                 
       <section class="py-12 px-4 text-center">
-        <div class="w-full max-w-2xl mx-auto"><span class="text-sm font-semibold"><%= chunk('TAGLINE','3ed07adfab95a372eb45') %></span>
-          <h2 class="text-5xl mt-2 mb-6 leading-tight font-heading"><%= chunk('No paper p..','976223f82f190217e6eb') %></h2>
-          <p class="mb-8 text-gray-500 leading-relaxed"><%= chunk('Profession..','9c98df1230ccfb2fa8d9') %></p>
-          <div><a class="inline-block py-4 px-8 mr-6 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow" href="#"><%= chunk('Sign up','2e9c6c45e946080a3302') %></a><a class="text-blue-700 hover:underline" href="#"><%= chunk('Learn more','8e0c3c69dbb899c5cec5') %></a></div>
+        <div class="w-full max-w-2xl mx-auto"><span class="text-sm font-semibold"><%= chunk('TAGLINE','cnk_e12da68ee9c199b37c97') %></span>
+          <h2 id="headline" class="text-5xl mt-2 mb-6 leading-tight font-heading"><%= chunk('No paper p..','cnk_d1c90a81aadee0b3cdc5') %></h2>
+          <p class="mb-8 text-gray-500 leading-relaxed"><%= chunk('Profession..','cnk_d8e606198d6cb41b38d2') %></p>
+          <div><a class="inline-block py-4 px-8 mr-6 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow" href="#"><%= chunk('Sign up','cnk_ec98a713105267498c5d') %></a><a class="text-blue-700 hover:underline" href="#"><%= chunk('Learn more','cnk_3640feca1168d2be9262') %></a></div>
         </div>
-      </section>
+      </section>      
                 
       <section class="py-12 px-4">
-        <h2 class="text-3xl mb-8 text-center font-heading"><%= chunk('How to get..','cdbe17633391501f2a3b') %></h2>
+        <h2 class="text-3xl mb-8 text-center font-heading"><%= chunk('How to get..','cnk_751cfbf23977e74abb0b') %></h2>
         <div class="flex max-w-sm mb-10 mx-auto text-center border-b-2">
           <div class="w-1/2 pb-2 border-b-4 border-indigo-500">
-            <button><%= chunk('For Custom..','5d905d5627e184960e9d') %></button>
+            <button id="customers"><%= chunk('For Custom..','cnk_9a7acebb9893d324156b') %></button>
           </div>
           <div class="w-1/2 pb-2">
-            <button><%= chunk('For Compan..','a93b7e23d93512cd9c67') %></button>
+            <button><%= chunk('For Compan..','cnk_8302150390dea63084a5') %></button>
           </div>
         </div>
         <div class="flex flex-wrap -mx-8">
-          <div class="lg:w-1/3 px-8 mb-8 lg:mb-0"><img src="placeholders/icons/mobile.svg" alt="">
-            <h3 class="text-2xl mb-3 font-heading"><%= chunk('Contact ou..','33361cf415776c667315') %></h3>
-            <p class="text-gray-500 leading-relaxed"><%= chunk('During the..','752b4d582cb06c0842bd') %></p>
+          <div class="lg:w-1/3 px-8 mb-8 lg:mb-0"><%= chunk('Mobile Ima..','cnk_1e0fbb71b30bfbc17919') %>
+            <h3 class="text-2xl mb-3 font-heading"><%= chunk('Contact ou..','cnk_cab9c3de8d0272e0e384') %></h3>
+            <p class="text-gray-500 leading-relaxed"><%= chunk('During the..','cnk_4b786dff0dc5960e24c7') %></p>
           </div>
-          <div class="lg:w-1/3 px-8 mb-8 lg:mb-0"><img src="placeholders/icons/pen.svg" alt="">
-            <h3 class="text-2xl mb-3 font-heading"><%= chunk('Sign the d..','01b694f5812103fbedd1') %></h3>
-            <p class="text-gray-500 leading-relaxed"><%= chunk('We can als..','86a664fccb1de01e58c8') %></p>
+          <div class="lg:w-1/3 px-8 mb-8 lg:mb-0"><%= chunk('Pen Image','cnk_36a3d78f28071c007ce3') %>
+            <h3 class="text-2xl mb-3 font-heading"><%= chunk('Sign the d..','cnk_ad18502f4ceb9123aacf') %></h3>
+            <p class="text-gray-500 leading-relaxed"><%= chunk('We can als..','cnk_034122197bdc9e2d44ed') %></p>
           </div>
-          <div class="lg:w-1/3 px-8 mb-8 lg:mb-0"><img src="placeholders/icons/van.svg" alt="">
-            <h3 class="text-2xl mb-3 font-heading"><%= chunk('Wait for d..','802941fd5322938dd702') %></h3>
-            <p class="text-gray-500 leading-relaxed"><%= chunk('You don’t ..','aa5a70867e126d6f5760') %></p>
+          <div class="lg:w-1/3 px-8 mb-8 lg:mb-0"><%= chunk('Van Image','cnk_82aef2de2dc43f07015e') %>
+            <h3 class="text-2xl mb-3 font-heading"><%= chunk('Wait for d..','cnk_c4dc3bc52520908639c2') %></h3>
+            <p class="text-gray-500 leading-relaxed"><%= chunk('You don’t ..','cnk_9e49f01f6534490d4999') %></p>
           </div>
         </div>
       </section>
                 
       <section class="p-4">
         <div class="flex flex-wrap text-center">
-          <div class="md:w-1/2 py-4 md:px-10 mb-4 md:mb-0"><img class="mx-auto mb-3" src="placeholders/icons/shield.svg" alt="">
-            <h3 class="text-2xl mb-3 font-heading"><%= chunk('High durab..','947205d4a1f46fe560dd') %></h3>
-            <p class="text-gray-500 leading-relaxed"><%= chunk('Forget abo..','4366933028bcc2448200') %></p>
+          <div class="md:w-1/2 py-4 md:px-10 mb-4 md:mb-0"><%= chunk('Shield Ima..','cnk_bf3185996de732d84fd9', {:css_class => "mx-auto mb-3"} ) %>
+            <h3 class="text-2xl mb-3 font-heading"><%= chunk('High durab..','cnk_7c3fe0ed57c44ec6ae79') %></h3>
+            <p class="text-gray-500 leading-relaxed"><%= chunk('Forget abo..','cnk_7c24cc2af8342ed91895') %></p>
           </div>
-          <div class="md:w-1/2 py-4 md:px-10 mb-4 md:mb-0 md:border-l"><img class="mx-auto mb-3" src="placeholders/icons/cloud-tools.svg" alt="">
-            <h3 class="text-2xl mb-3 font-heading"><%= chunk('Versatilit..','17ce69113c0dfad26f7f') %></h3>
-            <p class="text-gray-500 leading-relaxed"><%= chunk('Multi-func..','da5bfb8ab5130f9f5ee4') %></p>
+          <div class="md:w-1/2 py-4 md:px-10 mb-4 md:mb-0 md:border-l"><%= chunk('Cloud Tool..','cnk_3bccf592c06aa4f09e00', {:css_class => "mx-auto mb-3"} ) %>
+            <h3 class="text-2xl mb-3 font-heading"><%= chunk('Versatilit..','cnk_472150f011ae67b6d6f9') %></h3>
+            <p class="text-gray-500 leading-relaxed"><%= chunk('Multi-func..','cnk_a5e5186f3316a7bb1717') %></p>
           </div>
         </div>
       </section>
                 
       <section class="py-12 px-4">
         <div class="max-w-4xl mx-auto">
-          <h2 class="text-4xl text-center mb-12 font-heading"><%= chunk('Frequently..','14d10f5a258b32f314c0') %></h2>
+          <h2 class="text-4xl text-center mb-12 font-heading">Frequently Asked Questions</h2>
           <div class="flex flex-wrap -mx-8">
-            
-            <% chunk_collection("vhH5s9B4pu9c").each do |chunk| %>
+            <% chunk_collection("lst_tFF1K2tYswp8").each do |chunk| %>
               <div class="lg:w-1/2 px-8 mb-8">
                 <h3 class="text-lg mb-1 font-heading font-semibold">
-                  <%= chunk_property(chunk,"h5zwrvQnsaQa") %>
+                  <%= chunk_property(chunk,"prop_BE4N5dFljTK5") %>
                 </h3>
-                <p><%= chunk_property(chunk) %></p>
+                <p><%= chunk_property(chunk, "prop_lv7ZWZXyPTnq") %></p>
               </div>
             <% end %>
           </div>
@@ -81,17 +81,17 @@
           <div class="flex flex-wrap items-center mb-8 rounded shadow-md">
             <div class="md:w-1/2"><img src="placeholders/pictures/office.jpg" alt=""></div>
             <div class="md:w-1/2 p-8 text-left">
-              <p class="text-xl mb-4"><%= chunk('You know, ..','1e7683596bc91d57cba5') %></p>
-              <p class="font-semibold"><%= chunk('Barbara Al..','f9597d0e7beecbbd2b60') %></p>
-              <p class="text-sm text-gray-500"><%= chunk('Customer','c3a3155d07db8716535d') %></p>
+              <p class="text-xl mb-4"><%= chunk('You know, ..','cnk_17f0451a0baa976b8dfb') %></p>
+              <p class="font-semibold"><%= chunk('Barbara Al..','cnk_d4883b2ce03081e13927') %></p>
+              <p class="text-sm text-gray-500"><%= chunk('Customer','cnk_5de051b4bcb715920a27') %></p>
             </div>
           </div>
           <div class="flex flex-wrap items-center justify-center -mx-4 -mb-8">
-            <div class="w-1/3 md:w-1/5 px-4 mb-8"><img src="placeholders/logos/realweb.svg" alt=""></div>
-            <div class="w-1/3 md:w-1/5 px-4 mb-8"><img src="placeholders/logos/gitscape.svg" alt=""></div>
-            <div class="w-1/3 md:w-1/5 px-4 mb-8"><img src="placeholders/logos/k-hole.svg" alt=""></div>
-            <div class="w-1/3 md:w-1/5 px-4 mb-8"><img src="placeholders/logos/plucky.svg" alt=""></div>
-            <div class="w-1/3 md:w-1/5 px-4 mb-8"><img src="placeholders/logos/1stsight.svg" alt=""></div>
+            <div class="w-1/3 md:w-1/5 px-4 mb-8"><%= chunk('<img src="..','cnk_526fc4f7d2e54eea7ea3') %></div>
+            <div class="w-1/3 md:w-1/5 px-4 mb-8"><%= chunk('<img src="..','cnk_787216bdb90abe995a4c') %></div>
+            <div class="w-1/3 md:w-1/5 px-4 mb-8"><%= chunk('<img src="..','cnk_eb1d731f12887fdb41ce') %></div>
+            <div class="w-1/3 md:w-1/5 px-4 mb-8"><%= chunk('<img src="..','cnk_5e78e3db34429610409a') %></div>
+            <div class="w-1/3 md:w-1/5 px-4 mb-8"><%= chunk('<img src="..','cnk_c192123f014baf10b4db') %></div>
           </div>
         </div>
       </section>
@@ -101,32 +101,32 @@
           <div class="lg:w-1/2 px-4 mb-8 lg:mb-0">
             <div class="pt-10 pb-6 px-10 bg-white rounded shadow-md">
               <ul>
-                <li class="mb-3"><span class="inline-flex items-center justify-center h-8 w-8 mr-2 border rounded-full">1 </span><span><%= chunk('Our paper ..','37a2ebccb861011a4bdc') %></span></li>
-                <li class="mb-3"><span class="inline-flex items-center justify-center h-8 w-8 mr-2 border rounded-full">2</span><span><%= chunk('Order our ..','d48bc623fa2df9ef466a') %></span></li>
-                <li class="mb-3"><span class="inline-flex items-center justify-center h-8 w-8 mr-2 border rounded-full">3</span><span><%= chunk('We can pre..','2f715ee62bf777d80c87') %></span></li>
-                <li class="mb-3"><span class="inline-flex items-center justify-center h-8 w-8 mr-2 border rounded-full">4</span><span><%= chunk('10% discou..','c2fd5aa0485e019c3bf9') %></span></li>
+                <li class="mb-3"><span class="inline-flex items-center justify-center h-8 w-8 mr-2 border rounded-full">1 </span><span><%= chunk('Our paper ..','cnk_c4b350c7d13e28abd918') %></span></li>
+                <li class="mb-3"><span class="inline-flex items-center justify-center h-8 w-8 mr-2 border rounded-full">2</span><span><%= chunk('Order our ..','cnk_1627f8ae1c6ab0dce7cc') %></span></li>
+                <li class="mb-3"><span class="inline-flex items-center justify-center h-8 w-8 mr-2 border rounded-full">3</span><span><%= chunk('We can pre..','cnk_1dac5aa66490b2c6bc11') %></span></li>
+                <li class="mb-3"><span class="inline-flex items-center justify-center h-8 w-8 mr-2 border rounded-full">4</span><span><%= chunk('10% discou..','cnk_cd4645dd807093101955') %></span></li>
               </ul>
             </div>
           </div>
           <div class="lg:w-1/2 px-4 lg:pl-20">
-            <h2 class="text-3xl leading-tight font-heading"><%= chunk('The real b..','0fb3588f99ff6fccbf7d') %></h2>
-            <p class="mt-6 mb-8 text-gray-500 leading-relaxed"><%= chunk('Are you a ..','751a5a44b84258520c15') %></p>
-            <div><a class="inline-block py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow" href="#">Sign up for free</a></div>
+            <h2 class="text-3xl leading-tight font-heading"><%= chunk('The real b..','cnk_f7153546c53c649afc5d') %></h2>
+            <p class="mt-6 mb-8 text-gray-500 leading-relaxed"><%= chunk('Are you a ..','cnk_9bc072e430a52edcfa0f') %></p>
+            <div><a class="inline-block py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow" href="#"><%= chunk('Sign up fo..','cnk_219843a574842fcd59f6') %></a></div>
           </div>
         </div>
       </section>
                 
       <section class="py-12 px-4">
-        <h2 class="text-3xl text-center mb-8 font-heading"><%= chunk('Contact th..','3f99d153d0658ae15532') %></h2>
+        <h2 class="text-3xl text-center mb-8 font-heading"><%= chunk('Contact th..','cnk_965fd05aa00cde563f83') %></h2>
         <div class="flex flex-wrap items-center -mx-6">
-          <div class="w-full lg:w-1/2 px-6 lg:px-24 mb-8 lg:mb-0"><img src="placeholders/pictures/new_ideas.svg" alt=""></div>
+          <div class="w-full lg:w-1/2 px-6 lg:px-24 mb-8 lg:mb-0"><%= chunk('<img src="..','cnk_4b19aab3e4f001f544ed') %></div>
           <div class="w-full lg:w-1/2 px-6">
-            <h3 class="text-2xl mb-2 font-heading"><%= chunk('Let us gui..','0d86a4fa79efdf2d27fe') %></h3>
-            <p class="mb-8"><%= chunk('Lovely Pam..','1b470dce7b225ab3a9e5') %></p>
+            <h3 class="text-2xl mb-2 font-heading"><%= chunk('Let us gui..','cnk_15c7ac91a99159e15b07') %></h3>
+            <p class="mb-8"><%= chunk('Lovely Pam..','cnk_6ae5da188ff982809971') %></p>
             <ul>
-              <li class="mb-2"><img class="inline-block w-8 h-8 pr-2" src="placeholders/icons/home.svg" alt=""><span><%= chunk('1725 Sloug..','761ea9005fc8eae07552') %></span></li>
-              <li class="mb-2"><img class="inline-block w-8 h-8 pr-2" src="placeholders/icons/mobile.svg" alt=""><span><%= chunk('555-111-55..','22f40a21d7b78b3c3006') %></span></li>
-              <li class="mb-2"><img class="inline-block w-8 h-8 pr-2" src="placeholders/icons/message.svg" alt=""><span><%= chunk('scranton@d..','c8e20c0d1d25465ae880') %></span></li>
+              <li class="mb-2"><img class="inline-block w-8 h-8 pr-2" src="placeholders/icons/home.svg" alt=""><span><%= chunk('1725 Sloug..','cnk_4b28073c5ca523b703ce') %></span></li>
+              <li class="mb-2"><img class="inline-block w-8 h-8 pr-2" src="placeholders/icons/mobile.svg" alt=""><span><%= chunk('555-111-55..','cnk_e3f27ae27e6af7f13871') %></span></li>
+              <li class="mb-2"><img class="inline-block w-8 h-8 pr-2" src="placeholders/icons/message.svg" alt=""><span><%= chunk('scranton@d..','cnk_6bb4c808501a97f71b14') %></span></li>
             </ul>
           </div>
         </div>
@@ -134,10 +134,155 @@
                 
       <footer>
         <div class="flex flex-wrap items-center py-4 px-4 border-b">
-          <div class="w-full lg:w-1/5 text-center lg:text-left"><a class="text-xl text-indigo-500 font-semibold" href="#"><%= chunk('Dunder Mif..','ba324f09e7c082f5fe1a') %></a></div>
-          <div class="w-full lg:w-3/5 mt-4 lg:mt-0 text-center"><a class="inline-block mx-4 mb-4 lg:mb-0 text-blue-900 hover:text-blue-700" href="#"><%= chunk('Products','377cf4a784b381bd498a') %></a><a class="inline-block mx-4 mb-4 lg:mb-0 text-blue-900 hover:text-blue-700" href="#"><%= chunk('Team','bde848a3ecd6424a7240') %></a><a class="inline-block mx-4 mb-4 lg:mb-0 text-blue-900 hover:text-blue-700" href="#"><%= chunk('Customers','3831b8db52cfdb4cdf88') %></a><a class="inline-block mx-4 mb-4 lg:mb-0 text-blue-900 hover:text-blue-700" href="#"><%= chunk('Blog','4c93dc130ad2a1f36875') %></a></div>
-          <div class="flex justify-center lg:justify-end w-full lg:w-1/5 my-2 lg:my-0"><img class="w-6 h-6" src="placeholders/icons/message.svg" alt=""><img class="w-6 h-6 mx-8" src="placeholders/icons/share.svg" alt=""><img class="w-6 h-6" src="placeholders/icons/star.svg" alt=""></div>
+          <div class="w-full lg:w-1/5 text-center lg:text-left"><a class="text-xl text-indigo-500 font-semibold" href="#"><%= chunk('Dunder Mif..','cnk_58d65cd33ac93de56a8a') %></a></div>
+          <div class="w-full lg:w-3/5 mt-4 lg:mt-0 text-center"><a class="inline-block mx-4 mb-4 lg:mb-0 text-blue-900 hover:text-blue-700" href="#"><%= chunk('Products','cnk_1e9be07e53963bd81eff') %></a><a class="inline-block mx-4 mb-4 lg:mb-0 text-blue-900 hover:text-blue-700" href="#"><%= chunk('Team','cnk_d7248e93351a71bde96d') %></a><a class="inline-block mx-4 mb-4 lg:mb-0 text-blue-900 hover:text-blue-700" href="#"><%= chunk('Customers','cnk_648789f56f9db1dc9d08') %></a><a class="inline-block mx-4 mb-4 lg:mb-0 text-blue-900 hover:text-blue-700" href="#"><%= chunk('Blog','cnk_0ea761ecfaa375c54d39') %></a></div>
+          <div class="flex justify-center lg:justify-end w-full lg:w-1/5 my-2 lg:my-0"> <%= chunk('<img class..','cnk_a5de2a05ee0a5bf94b6d') %><%= chunk('<img class..','cnk_7883265ecee670444fb3') %><%= chunk('<img class..','cnk_eef6f524e88b77d33b75') %></div>
         </div>
-        <div class="py-4 text-center"><span class="block md:inline-block mb-4 md:mb-0 mx-3"><%= chunk('&copy 2019..','d5c229a2faec8cc316a9') %></span><a class="inline-block mx-4 text-blue-900 hover:text-blue-700" href="#"><%= chunk('Privacy Po..','42e4fb634808a1b1ad70') %></a><a class="inline-block mx-4 text-blue-900 hover:text-blue-700" href="#"><%= chunk('Term of Se..','fb8a1c14a23f784dc49b') %></a></div>
+        <div class="py-4 text-center"><span class="block md:inline-block mb-4 md:mb-0 mx-3"><%= chunk('&copy 2019..','cnk_182edf1d2ab6eb7fa0b9') %></span><a class="inline-block mx-4 text-blue-900 hover:text-blue-700" href="#"><%= chunk('Privacy Po..','cnk_32097fdc52271cb72622') %></a><a class="inline-block mx-4 text-blue-900 hover:text-blue-700" href="#"><%= chunk('Term of Se..','cnk_ffe4fee841ca07912662') %></a></div>
       </footer>
     </div>
+<% else %>
+  <div class="container mx-auto px-4">     
+    <nav>
+      <div class="text-right py-2 px-4"><a class="lg:inline-block mr-6 lg:mt-0 text-sm text-blue-900 hover:text-blue-700" href="#"><%= chunk('Sign in','42af45e4837ef5cb262e') %></a><a class="lg:inline-block lg:mt-0 text-sm text-blue-900 hover:text-blue-700" href="#"><%= chunk('Sign up','d8da65d1af93f833e43b') %></a></div>
+      <div class="flex flex-wrap items-center justify-between p-4 border-t">
+        <div class="flex flex-shrink-0 mr-6"><a class="text-xl text-indigo-500 font-semibold" href="#"><%= chunk('Dunder Mif..','738e135932c1df178247') %></a></div>
+        <div class="block lg:hidden"><button class="navbar-burger flex items-center py-2 px-3 text-indigo-500 rounded border border-indigo-500"><svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title><%= chunk('Menu','c8480dea1ccd910c2bb2') %></title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg></button></div>
+        <div class="navbar-menu hidden lg:flex lg:flex-grow lg:items-center w-full lg:w-auto">
+          <div class="lg:ml-auto"><a class="block lg:inline-block mt-4 lg:mt-0 mr-12 text-blue-900 hover:text-blue-700" href="#"><span><%= chunk('Products','f6c5f38c77e1514e9cc5') %></span><span class="block text-sm text-gray-500"><%= chunk('Premium co..','3e30f74bd9aef07d74ce') %></span></a><a class="block lg:inline-block mt-4 lg:mt-0 mr-12 text-blue-900 hover:text-blue-700" href="#"> <span><%= chunk('Team','37eafa79b73ef4d2d26e') %></span><span class="block text-sm text-gray-500">Our family</span></a><a class="block lg:inline-block mt-4 lg:mt-0 mr-12 text-blue-900 hover:text-blue-700" href="#"> <span><%= chunk('Customers','87e3c5c0d5987b2b6fe5') %></span><span class="block text-sm text-gray-500"><%= chunk('Dunder Fri..','9d0183456540cab7a1d0') %></span></a></div>
+          <div><a class="inline-block py-3 px-6 mt-4 lg:mt-0 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow" href="#"><%= chunk('Try Demo','8dbf3e18dd14d1fedb41') %></a></div>
+        </div>
+      </div>
+    </nav>
+              
+    <section class="py-12 px-4 text-center">
+      <div class="w-full max-w-2xl mx-auto"><span class="text-sm font-semibold"><%= chunk('TAGLINE','3ed07adfab95a372eb45') %></span>
+        <h2 class="text-5xl mt-2 mb-6 leading-tight font-heading"><%= chunk('No paper p..','976223f82f190217e6eb') %></h2>
+        <p class="mb-8 text-gray-500 leading-relaxed"><%= chunk('Profession..','9c98df1230ccfb2fa8d9') %></p>
+        <div><a class="inline-block py-4 px-8 mr-6 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow" href="#"><%= chunk('Sign up','2e9c6c45e946080a3302') %></a><a class="text-blue-700 hover:underline" href="#"><%= chunk('Learn more','8e0c3c69dbb899c5cec5') %></a></div>
+      </div>
+    </section>
+              
+    <section class="py-12 px-4">
+      <h2 class="text-3xl mb-8 text-center font-heading"><%= chunk('How to get..','cdbe17633391501f2a3b') %></h2>
+      <div class="flex max-w-sm mb-10 mx-auto text-center border-b-2">
+        <div class="w-1/2 pb-2 border-b-4 border-indigo-500">
+          <button><%= chunk('For Custom..','5d905d5627e184960e9d') %></button>
+        </div>
+        <div class="w-1/2 pb-2">
+          <button><%= chunk('For Compan..','a93b7e23d93512cd9c67') %></button>
+        </div>
+      </div>
+      <div class="flex flex-wrap -mx-8">
+        <div class="lg:w-1/3 px-8 mb-8 lg:mb-0 drop"><img src="placeholders/icons/mobile.svg" alt="">
+          <h3 class="text-2xl mb-3 font-heading"><%= chunk('Contact ou..','33361cf415776c667315') %></h3>
+          <p class="text-gray-500 leading-relaxed"><%= chunk('During the..','752b4d582cb06c0842bd') %></p>
+        </div>
+        <div class="lg:w-1/3 px-8 mb-8 lg:mb-0"><img src="placeholders/icons/pen.svg" alt="">
+          <h3 class="text-2xl mb-3 font-heading"><%= chunk('Sign the d..','01b694f5812103fbedd1') %></h3>
+          <p class="text-gray-500 leading-relaxed"><%= chunk('We can als..','86a664fccb1de01e58c8') %></p>
+        </div>
+        <div class="lg:w-1/3 px-8 mb-8 lg:mb-0"><img src="placeholders/icons/van.svg" alt="">
+          <h3 class="text-2xl mb-3 font-heading"><%= chunk('Wait for d..','802941fd5322938dd702') %></h3>
+          <p class="text-gray-500 leading-relaxed"><%= chunk('You don’t ..','aa5a70867e126d6f5760') %></p>
+        </div>
+      </div>
+    </section>
+              
+    <section class="p-4">
+      <div class="flex flex-wrap text-center">
+        <div class="md:w-1/2 py-4 md:px-10 mb-4 md:mb-0"><img class="mx-auto mb-3" src="placeholders/icons/shield.svg" alt="">
+          <h3 class="text-2xl mb-3 font-heading"><%= chunk('High durab..','947205d4a1f46fe560dd') %></h3>
+          <p class="text-gray-500 leading-relaxed"><%= chunk('Forget abo..','4366933028bcc2448200') %></p>
+        </div>
+        <div class="md:w-1/2 py-4 md:px-10 mb-4 md:mb-0 md:border-l"><img class="mx-auto mb-3" src="placeholders/icons/cloud-tools.svg" alt="">
+          <h3 class="text-2xl mb-3 font-heading"><%= chunk('Versatilit..','17ce69113c0dfad26f7f') %></h3>
+          <p class="text-gray-500 leading-relaxed"><%= chunk('Multi-func..','da5bfb8ab5130f9f5ee4') %></p>
+        </div>
+      </div>
+    </section>
+              
+    <section class="py-12 px-4">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-4xl text-center mb-12 font-heading"><%= chunk('Frequently..','14d10f5a258b32f314c0') %></h2>
+        <div class="flex flex-wrap -mx-8">
+          
+          <% chunk_collection("vhH5s9B4pu9c").each do |chunk| %>
+            <div class="lg:w-1/2 px-8 mb-8">
+              <h3 class="text-lg mb-1 font-heading font-semibold">
+                <%= chunk_property(chunk,"h5zwrvQnsaQa") %>
+              </h3>
+              <p><%= chunk_property(chunk) %></p>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </section>
+              
+    <section class="py-12 px-4 text-center">
+      <div class="max-w-4xl mx-auto">
+        <div class="flex flex-wrap items-center mb-8 rounded shadow-md">
+          <div class="md:w-1/2"><img src="placeholders/pictures/office.jpg" alt=""></div>
+          <div class="md:w-1/2 p-8 text-left">
+            <p class="text-xl mb-4"><%= chunk('You know, ..','1e7683596bc91d57cba5') %></p>
+            <p class="font-semibold"><%= chunk('Barbara Al..','f9597d0e7beecbbd2b60') %></p>
+            <p class="text-sm text-gray-500"><%= chunk('Customer','c3a3155d07db8716535d') %></p>
+          </div>
+        </div>
+        <div class="flex flex-wrap items-center justify-center -mx-4 -mb-8">
+          <div class="w-1/3 md:w-1/5 px-4 mb-8"><img src="placeholders/logos/realweb.svg" alt=""></div>
+          <div class="w-1/3 md:w-1/5 px-4 mb-8"><img src="placeholders/logos/gitscape.svg" alt=""></div>
+          <div class="w-1/3 md:w-1/5 px-4 mb-8"><img src="placeholders/logos/k-hole.svg" alt=""></div>
+          <div class="w-1/3 md:w-1/5 px-4 mb-8"><img src="placeholders/logos/plucky.svg" alt=""></div>
+          <div class="w-1/3 md:w-1/5 px-4 mb-8"><img src="placeholders/logos/1stsight.svg" alt=""></div>
+        </div>
+      </div>
+    </section>
+              
+    <section class="py-16 px-4 bg-gray-200">
+      <div class="flex flex-wrap items-center max-w-6xl mx-auto">
+        <div class="lg:w-1/2 px-4 mb-8 lg:mb-0">
+          <div class="pt-10 pb-6 px-10 bg-white rounded shadow-md">
+            <ul>
+              <li class="mb-3"><span class="inline-flex items-center justify-center h-8 w-8 mr-2 border rounded-full">1 </span><span><%= chunk('Our paper ..','37a2ebccb861011a4bdc') %></span></li>
+              <li class="mb-3"><span class="inline-flex items-center justify-center h-8 w-8 mr-2 border rounded-full">2</span><span><%= chunk('Order our ..','d48bc623fa2df9ef466a') %></span></li>
+              <li class="mb-3"><span class="inline-flex items-center justify-center h-8 w-8 mr-2 border rounded-full">3</span><span><%= chunk('We can pre..','2f715ee62bf777d80c87') %></span></li>
+              <li class="mb-3"><span class="inline-flex items-center justify-center h-8 w-8 mr-2 border rounded-full">4</span><span><%= chunk('10% discou..','c2fd5aa0485e019c3bf9') %></span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="lg:w-1/2 px-4 lg:pl-20">
+          <h2 class="text-3xl leading-tight font-heading"><%= chunk('The real b..','0fb3588f99ff6fccbf7d') %></h2>
+          <p class="mt-6 mb-8 text-gray-500 leading-relaxed"><%= chunk('Are you a ..','751a5a44b84258520c15') %></p>
+          <div><a class="inline-block py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow" href="#">Sign up for free</a></div>
+        </div>
+      </div>
+    </section>
+              
+    <section class="py-12 px-4">
+      <h2 class="text-3xl text-center mb-8 font-heading"><%= chunk('Contact th..','3f99d153d0658ae15532') %></h2>
+      <div class="flex flex-wrap items-center -mx-6">
+        <div class="w-full lg:w-1/2 px-6 lg:px-24 mb-8 lg:mb-0"><img src="placeholders/pictures/new_ideas.svg" alt=""></div>
+        <div class="w-full lg:w-1/2 px-6">
+          <h3 class="text-2xl mb-2 font-heading"><%= chunk('Let us gui..','0d86a4fa79efdf2d27fe') %></h3>
+          <p class="mb-8"><%= chunk('Lovely Pam..','1b470dce7b225ab3a9e5') %></p>
+          <ul>
+            <li class="mb-2"><img class="inline-block w-8 h-8 pr-2" src="placeholders/icons/home.svg" alt=""><span><%= chunk('1725 Sloug..','761ea9005fc8eae07552') %></span></li>
+            <li class="mb-2"><img class="inline-block w-8 h-8 pr-2" src="placeholders/icons/mobile.svg" alt=""><span><%= chunk('555-111-55..','22f40a21d7b78b3c3006') %></span></li>
+            <li class="mb-2"><img class="inline-block w-8 h-8 pr-2" src="placeholders/icons/message.svg" alt=""><span><%= chunk('scranton@d..','c8e20c0d1d25465ae880') %></span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+              
+    <footer>
+      <div class="flex flex-wrap items-center py-4 px-4 border-b">
+        <div class="w-full lg:w-1/5 text-center lg:text-left"><a class="text-xl text-indigo-500 font-semibold" href="#"><%= chunk('Dunder Mif..','ba324f09e7c082f5fe1a') %></a></div>
+        <div class="w-full lg:w-3/5 mt-4 lg:mt-0 text-center"><a class="inline-block mx-4 mb-4 lg:mb-0 text-blue-900 hover:text-blue-700" href="#"><%= chunk('Products','377cf4a784b381bd498a') %></a><a class="inline-block mx-4 mb-4 lg:mb-0 text-blue-900 hover:text-blue-700" href="#"><%= chunk('Team','bde848a3ecd6424a7240') %></a><a class="inline-block mx-4 mb-4 lg:mb-0 text-blue-900 hover:text-blue-700" href="#"><%= chunk('Customers','3831b8db52cfdb4cdf88') %></a><a class="inline-block mx-4 mb-4 lg:mb-0 text-blue-900 hover:text-blue-700" href="#"><%= chunk('Blog','4c93dc130ad2a1f36875') %></a></div>
+        <div class="flex justify-center lg:justify-end w-full lg:w-1/5 my-2 lg:my-0"><img class="w-6 h-6" src="placeholders/icons/message.svg" alt=""><img class="w-6 h-6 mx-8" src="placeholders/icons/share.svg" alt=""><img class="w-6 h-6" src="placeholders/icons/star.svg" alt=""></div>
+      </div>
+      <div class="py-4 text-center"><span class="block md:inline-block mb-4 md:mb-0 mx-3"><%= chunk('&copy 2019..','d5c229a2faec8cc316a9') %></span><a class="inline-block mx-4 text-blue-900 hover:text-blue-700" href="#"><%= chunk('Privacy Po..','42e4fb634808a1b1ad70') %></a><a class="inline-block mx-4 text-blue-900 hover:text-blue-700" href="#"><%= chunk('Term of Se..','fb8a1c14a23f784dc49b') %></a></div>
+    </footer>
+
+  </div>
+<% end %>
