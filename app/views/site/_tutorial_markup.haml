@@ -1,0 +1,101 @@
+
+
+#editmode-modal-container
+
+  #editmode-tutorial
+    
+    .slide
+
+      %h2 
+        Welcome to the Editmode Demo
+      
+        .tagline
+          A few quick notes before you get started. 
+
+      %ul
+        %li 
+          Changes you make here will affect the <strong>live version</strong>. Others who visit this page will see the changes you've made. Please don't deface the demo 🙏.
+        %li To allow others to use the demo, we'll be resetting the content to it's previous state every 30 minutes. If it looks like your content got overwritten, that's probably why.
+
+      .next-button
+        I Understand
+
+    .slide
+
+      %h2 How It Works
+
+      %ul
+        %li Editable content appears with a light grey outline. 
+        %li To edit text, simply click directly on the page where it appears, make your changes, and hit "Save Changes" in the top right once you're done. 
+        %li To edit an image, click it and then use the side panel to replace it. When you change an image, you'll need to wait for 5 to 10 seconds and reload the page to see it appear in the live site.
+
+      .start-button
+        Get started
+
+
+:sass
+  #editmode-modal-container 
+    position: fixed
+    top: 0
+    right: 0
+    left: 0
+    bottom: 0
+    background: rgba(0,0,0,0.8)
+    z-index: 9999
+
+  #editmode-tutorial 
+    top: -600px
+    margin: 50px auto
+    background: #fff
+    width: 430px
+    position: relative
+    padding: 20px
+    border-radius: 8px
+    .slide 
+      display: none
+      &:nth-child(1)
+        display: block
+    h2 
+      font-size: 20px
+      margin-bottom: 10px
+      .tagline
+        color: #7D7D7D
+        font-size: 14px
+    ul
+      margin-bottom: 20px
+      padding-left: 20px
+      list-style-type: disc
+      list-style-position: outside
+      list-style-image: none
+      li
+
+    .next-button, .start-button
+      cursor: pointer
+      display: block
+      background: #1E96FF
+      color: #fff
+      text-align: center
+      padding: 15px 0
+      border-radius: 3px
+    
+
+:javascript
+  $(document).ready(function() {
+    $("#editmode-tutorial").animate({ top: 60 }, 300);
+    $("#editmode-tutorial .slide .next-button").click(function(){
+      next_slide = $(this).closest(".slide").next()
+      if (next_slide) {
+        $("#editmode-tutorial .slide").slideUp(250)
+        next_slide.slideDown(250)
+      }
+    })
+    $(".start-button").click(function() {
+      localStorage.setItem("chunks_authentication_token","4vABSmG9HvPzdcV5ZNXC5zx8");
+      window.chunks_authentication_token = localStorage.getItem('chunks_authentication_token');
+      initializeChunks();
+      $("#editmode-tutorial").animate({ top: 60 }, -300);
+      $("#editmode-modal-container").fadeOut();
+    })
+  })
+
+

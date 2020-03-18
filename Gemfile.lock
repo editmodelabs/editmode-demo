@@ -46,11 +46,15 @@ GEM
       rake
       redcarpet
     erubis (2.7.0)
+    ffi (1.12.2)
     figaro (0.7.0)
       bundler (~> 1.0)
       rails (>= 3, < 5)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
+    haml (5.1.2)
+      temple (>= 0.8.0)
+      tilt
     httparty (0.18.0)
       mime-types (~> 3.0)
       multi_xml (>= 0.5.2)
@@ -107,7 +111,15 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rake (13.0.1)
+    rb-fsevent (0.10.3)
+    rb-inotify (0.10.1)
+      ffi (~> 1.0)
     redcarpet (3.5.0)
+    sass (3.7.4)
+      sass-listen (~> 4.0.0)
+    sass-listen (4.0.0)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
     sprockets (4.0.0)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
@@ -115,8 +127,10 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
+    temple (0.8.2)
     thor (1.0.1)
     thread_safe (0.3.6)
+    tilt (2.0.10)
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
@@ -130,9 +144,11 @@ DEPENDENCIES
   bigdecimal (= 1.4.2)
   editmode
   figaro
+  haml
   jquery-rails
   rails (= 4.2.10)
   rails_12factor
+  sass
   turbolinks
 
 BUNDLED WITH
