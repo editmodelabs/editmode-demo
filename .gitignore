@@ -13,3 +13,4 @@
 /tmp
 *.sublime-workspace
 *.sublime-project
+config/application.yml

@@ -14,7 +14,7 @@
 
       %ul
         %li 
-          Changes you make here will affect the <strong>live version</strong>. Others who visit this page will see the changes you've made. Please don't deface the demo 🙏.
+          Changes you make here will affect the <strong>live website</strong>. Others who visit this page will see the changes you've made. Please don't deface the demo 🙏.
         %li To allow others to use the demo, we'll be resetting the content to it's previous state every 30 minutes. If it looks like your content got overwritten, that's probably why.
 
       .next-button
@@ -85,12 +85,12 @@
     $("#editmode-tutorial .slide .next-button").click(function(){
       next_slide = $(this).closest(".slide").next()
       if (next_slide) {
-        $("#editmode-tutorial .slide").slideUp(250)
-        next_slide.slideDown(250)
+        $("#editmode-tutorial .slide").hide()
+        next_slide.show()
       }
     })
     $(".start-button").click(function() {
-      localStorage.setItem("chunks_authentication_token","4vABSmG9HvPzdcV5ZNXC5zx8");
+      localStorage.setItem("chunks_authentication_token","#{ENV["DEMO_AUTHENTICATION_TOKEN"]}");
       window.chunks_authentication_token = localStorage.getItem('chunks_authentication_token');
       initializeChunks();
       $("#editmode-tutorial").animate({ top: 60 }, -300);
