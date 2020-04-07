@@ -21,8 +21,14 @@
   </head>
   <body class="bg-body text-body font-body">
   	<%= yield %>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162502589-1"></script>
+    :javascript
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-162502589-1');
   </body>
-
-  <%= render :partial => "site/tutorial_markup" %>
 
 </html>
